@@ -1,0 +1,24 @@
+{
+        "$id": "http://example.com/example.json",
+        "type": "object",
+        "required": [
+            "name",
+            "job",
+            "id",
+            "createdAt"
+        ],
+        "properties": {
+            "name": {
+                "type": "string"
+            },
+            "job": {
+                "type": "string"
+            },
+            "id": {
+                "type": "string"
+            },
+            "createdAt": {
+                "type": "string"
+            }
+        }
+    }
